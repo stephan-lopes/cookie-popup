@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.cookie-container {
+    background: linear-gradient(260deg, #9b508c 0%, #4f264c 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.text {
+    width: 70%;
+    padding-left: 0.8rem;
+}
+
+.svg-container {
+    width: 97px;
+    height: 97px;
+}
+
+.cookie {
+    transform: scale(0.9);
+    overflow: visible;
+    width: 6.8rem;
+    height: 6.8rem;
+}
+
+.cookie-title {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.cookie-subtitle {
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.87rem;
+}
+
+button {
+    border-style: none;
+    padding: 0.5rem;
+    color: #4f264c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+}
